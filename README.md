@@ -16,7 +16,7 @@ source my_env/bin/activate
 python3 -V
 pip list
 Навчились: створювати ізольоване середовище для Python-проектів.
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/hristinabilecka/Desktop/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-23%20%D0%BE%2012.58.48.png?version%3D1774265945256)
+![alt text](./img/p1.png)
 Завдання 2. Робота з бібліотекою requests
  • Що зроблено: встановили requests і створили тестовий файл requests_test.py.
  • Код:import requests
@@ -24,10 +24,10 @@ pip list
 r = requests.get("https://google.com")
 print("Status code:", r.status_code)
 print("Версія requests:", r.__version__)
-![alt text](https://vscode.dev/github/BiletskaKhristina/oop/blob/mainktop/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-23%20%D0%BE%2013.01.57.png)
+![alt text](./img/p2.png)
 Завдання 3. Робота з Flask та jikanpy
  • Що зроблено: створили файл anime.py для виводу епізодів аніме у браузері.
- ![alt text](https://vscode.dev/github/BiletskaKhristina/oop/blob/mainktop/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-23%20%D0%BE%2013.04.00.png)
+ ![alt text](./img/p3.png)
  Завдання 4. Використання Pipenv
  • Що зроблено: створили середовище через Pipenv, встановили requests, запустили файл pipenv_test.py.
  b'<!DOCTYPE html>'
@@ -241,12 +241,14 @@ b'</html>'
 hristinabilecka@192 oop % 
 Завдання 5. Використання Poetry
  • Що зроблено: створили проєкт через Poetry, додали бібліотеки, створили веб-сайт app.py.
- ![alt text](https://vscode.dev/github/BiletskaKhristina/oop/blob/mainktop/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-23%20%D0%BE%2013.53.25.png)
- ![alt text](https://vscode.dev/github/BiletskaKhristina/oop/blob/mainktop/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-23%20%D0%BE%2013.24.50.png)
+ ![alt text](./img/p4.png)
+ ![alt text](./img/p5.png)
 
  Завдання 6. Змінні середовища (.env)
  • Що зроблено: створено .env з рядком IT_TEST=HelloWorld, скрипт env_test.py.
- ![alt text](https://vscode.dev/github/BiletskaKhristina/oop/blob/mainktop/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-03-23%20%D0%BE%2014.00.18.png)
+ ![alt text](./img/p6.png)
+
+
  Висновок
  • Що зроблено в роботі: створено ізольовані середовища, встановлено та використано сторонні бібліотеки, створено простий веб-сайт з динамічним виводом даних.
  • Чи досягнуто мети роботи: так, всі завдання виконані.
