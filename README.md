@@ -19,7 +19,10 @@ source my_env/bin/activate
 python3 -V
 pip list
 Навчились: створювати ізольоване середовище для Python-проектів.
+
+
 ![alt text](./img/p1.png)
+
 ## 2. Робота з бібліотекою requests
  • Що зроблено: встановили requests і створили тестовий файл requests_test.py.
  • Код:import requests
